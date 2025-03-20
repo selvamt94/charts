@@ -10,5 +10,9 @@ longhorn:
 longhorn-crd:
   - 103.5.0+up1.8.1
   - 103.4.2+up1.7.3
+neuvector:
+  - 103.0.9+up2.8.5
+neuvector-crd:
+  - 103.0.9+up2.8.5
 rancher-webhook:
   - 103.0.16+up0.4.17-rc.1
