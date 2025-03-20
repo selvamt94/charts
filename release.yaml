@@ -20,6 +20,10 @@ longhorn-crd:
   - 104.3.0+up1.8.1
   - 104.2.2+up1.7.3
   - 103.4.2+up1.7.3
+neuvector:
+  - 104.0.5+up2.8.5
+neuvector-crd:
+  - 104.0.5+up2.8.5
 rancher-backup:
   - 104.0.3+up5.0.3-rc.1
 rancher-backup-crd:
