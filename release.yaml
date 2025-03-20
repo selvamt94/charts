@@ -26,6 +26,8 @@ neuvector:
   - 106.0.0+up2.8.5
 neuvector-crd:
   - 106.0.0+up2.8.5
+neuvector-monitor:
+  - 106.0.0+up2.8.5
 prometheus-federator:
   - 106.0.0+up3.0.0
 rancher-aks-operator:
