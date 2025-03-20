@@ -8933,6 +8933,37 @@ entries:
       catalog.cattle.io/rancher-version: '>= 2.9.0-0 < 2.10.0-0'
       catalog.cattle.io/release-name: neuvector
       catalog.cattle.io/type: cluster-tool
+      catalog.cattle.io/upstream-version: 2.8.5
+    apiVersion: v1
+    appVersion: 5.4.3
+    created: "2025-03-19T20:36:48.834230048-07:00"
+    description: Helm feature chart for NeuVector container security platform.
+    digest: eb9b1fdeddc23183e512562ec9c2b05ce380899d5a86b43e8a0f4e9c30258ca8
+    home: https://neuvector.com
+    icon: https://avatars2.githubusercontent.com/u/19367275?s=200&v=4
+    keywords:
+    - security
+    maintainers:
+    - email: support@neuvector.com
+      name: becitsthere
+    name: neuvector
+    sources:
+    - https://github.com/neuvector/neuvector
+    urls:
+    - assets/neuvector/neuvector-104.0.5+up2.8.5.tgz
+    version: 104.0.5+up2.8.5
+  - annotations:
+      catalog.cattle.io/auto-install: neuvector-crd=match
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/display-name: NeuVector
+      catalog.cattle.io/kube-version: '>=1.18.0-0 < 1.33.0-0'
+      catalog.cattle.io/namespace: cattle-neuvector-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux
+      catalog.cattle.io/provides-gvr: neuvector.com/v1
+      catalog.cattle.io/rancher-version: '>= 2.9.0-0 < 2.10.0-0'
+      catalog.cattle.io/release-name: neuvector
+      catalog.cattle.io/type: cluster-tool
       catalog.cattle.io/upstream-version: 2.8.4
     apiVersion: v1
     appVersion: 5.4.2
@@ -9920,6 +9951,26 @@ entries:
     - assets/neuvector/neuvector-100.0.0+up2.2.0.tgz
     version: 100.0.0+up2.2.0
   neuvector-crd:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/namespace: cattle-neuvector-system
+      catalog.cattle.io/release-name: neuvector-crd
+    apiVersion: v1
+    appVersion: 5.4.3
+    created: "2025-03-19T20:36:48.85441137-07:00"
+    description: Helm chart for NeuVector's CRD services
+    digest: 7870f257ba91a152e7c1538c80b9b0b2c04bc04af9657177ed90c3a4dd5fde81
+    home: https://neuvector.com
+    icon: https://avatars2.githubusercontent.com/u/19367275?s=200&v=4
+    maintainers:
+    - email: support@neuvector.com
+      name: becitsthere
+    name: neuvector-crd
+    type: application
+    urls:
+    - assets/neuvector-crd/neuvector-crd-104.0.5+up2.8.5.tgz
+    version: 104.0.5+up2.8.5
   - annotations:
       catalog.cattle.io/certified: rancher
       catalog.cattle.io/hidden: "true"
