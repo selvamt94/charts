@@ -73,7 +73,6 @@ spec:
       containers:
         - name: neuvector-enforcer-pod
           image: {{ template "system_default_registry" . }}{{ .Values.enforcer.image.repository }}:{{ .Values.enforcer.image.tag }}
-          {{- end }}
           securityContext:
             privileged: true
           resources:
