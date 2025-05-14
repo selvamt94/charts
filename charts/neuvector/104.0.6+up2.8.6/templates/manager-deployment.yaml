@@ -69,7 +69,6 @@ spec:
       containers:
         - name: neuvector-manager-pod
           image: {{ template "system_default_registry" . }}{{ .Values.manager.image.repository }}:{{ .Values.manager.image.tag }}
-          {{- end }}
           ports:
             - name: http
               containerPort: 8443
